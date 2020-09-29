@@ -1,0 +1,17 @@
+Warehouse
+Create a simple application: Warehouse. The application works with following entities:
+    • Category with following attributes:
+        ◦ Name (is unique)
+        ◦ Parent category identification (categories form a tree)
+    • Product with following attributes:
+        ◦ Name
+        ◦ Description
+        ◦ Price
+The relation between Categories and Products is many-to-many. One product can belong to multiple categories. One category can contain multiple products.
+Design the database schema and create an appropriate persistence layer in the application. Propose and implement a RESTful service that supports following functions:
+    • Add a new category
+    • Add a new product
+    • Assign/remove product from category
+    • Delete a category
+    • List category tree
+    • List products in a selected category
